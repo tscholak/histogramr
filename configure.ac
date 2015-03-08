@@ -21,8 +21,8 @@ AC_PROG_LN_S
 dnl Checks for headers
 AC_HEADER_STDC
 AC_HEADER_MAJOR
-AC_CHECK_HEADERS([stdio.h time.h sys/time.h math.h getopt.h limits.h])
-AC_CHECK_HEADER_STDBOOL
+AC_CHECK_HEADERS([stdbool.h stdio.h time.h sys/time.h math.h getopt.h limits.h])
+#AC_CHECK_HEADER_STDBOOL
 AC_TYPE_SIZE_T
 
 dnl Checks for library functions
