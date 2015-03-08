@@ -23,6 +23,8 @@
 #include <config.h>
 #endif
 
+#define H5Acreate_vers 2
+
 #include <stdlib.h>
 
 #endif
