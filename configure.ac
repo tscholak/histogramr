@@ -3,7 +3,7 @@
 
 # Autoconf setup
 
-AC_PREREQ([2.69])
+AC_PREREQ([2.64])
 AC_INIT([histogramr], [0.1.0], [torsten.scholak+histogramr@googlemail.com], [histogramr], [https://github.com/tscholak/histogramr])
 AC_CONFIG_SRCDIR([src/data.c])
 AC_CONFIG_HEADERS([config.h])
