@@ -33,7 +33,7 @@ $ ln -sf ./src/histogramr ~/bin
 ```
 
 ## Usage
-histogramr reads in the input files one-by-one and commits the data to the histogram data structure. The output file is written multiple times, after a predetermined number of  
+histogramr reads in the input files one-by-one and commits the data to the histogram data structure. The output file is written multiple times, whenever a predetermined number of input files has been processed.
 
 ### Command line arguments
 ```
@@ -64,7 +64,7 @@ Report bugs to: torsten.scholak+histogramr@googlemail.com
 histogramr home page: <https://github.com/tscholak/histogramr>
 ```
 
-### Examples
+## Impact
 So far, histogramr has processed data for the following publications:
 * Torsten Scholak, Thomas Wellens, Andreas Buchleitner, "Spectral Backbone of Excitation Transport in Ultra-Cold Rydberg Gases", Phys. Rev. A 90, 063415 (2014)
 * Tobias Zech, Mattia Walschaers, Torsten Scholak, Roberto Mulet, Thomas Wellens, Andreas Buchleitner, "Quantum transport in biological functional units: noise, disorder, structure", Fluct. Noise Lett. 12, 1340007 (2013)
