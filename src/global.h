@@ -24,6 +24,10 @@
 #endif
 
 #define H5Acreate_vers 2
+#define H5Dopen_vers 2
+#define H5Tarray_create_vers 2
+#define H5Gopen_vers 2
+#define H5Dcreate_vers 2
 
 #include <stdlib.h>
 
