@@ -16,7 +16,7 @@ install:
   - sudo apt-get update -qq
   - sudo apt-get install -y libgsl0-dev libhdf5-serial-dev
 
-script: ./autogen.sh && ./configure && make
+script: ./autogen.sh --verbose && ./configure && make
 
 notifications:
   email:
