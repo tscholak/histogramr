@@ -14,7 +14,7 @@ install:
 #  - if [[ $TRAVIS_OS_NAME == 'linux' ]]; then sudo apt-get install -y libgsl0-dev libhdf5-serial-dev; fi
 #  - if [[ $TRAVIS_OS_NAME == 'osx' ]]; then brew install gsl hdf5; fi
   - sudo apt-get update -qq
-  - sudo apt-get install -y libgsl0-dev libhdf5-serial-dev
+  - sudo apt-get install -y autoconf-archive libgsl0-dev libhdf5-serial-dev
 
 script: ./autogen.sh --verbose && ./configure && make
 
