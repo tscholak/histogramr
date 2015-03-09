@@ -57,8 +57,8 @@ Optional options:
   -L, --l10 <boolean>        logarithmic transform (default: false)
 
 Other options:
-  -h|--help                  print this help message and quit
-  -v|--version               print version information and quit
+  -h, --help                 print this help message and quit
+  -v, --version              print version information and quit
 
 Report bugs to: torsten.scholak+histogramr@googlemail.com
 histogramr home page: <https://github.com/tscholak/histogramr>

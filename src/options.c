@@ -612,13 +612,13 @@ print_usage (
     "Optional options:\n"
     "  -e, --save-every <number>  save every <number> of files\n"
     "                             (default: 1)\n"
-   "  -L, --l10 <boolean>        logarithmic transform (default: false)\n\n"
-   "Other options:\n"
-   "  -h|--help                  print this help message and quit\n"
-   "  -V|--version               print version information and quit\n\n"
-   "Report bugs to: %s\n"
-   "%s home page: <%s>\n",
-   PACKAGE_NAME, PACKAGE_NAME, PACKAGE_BUGREPORT, PACKAGE_NAME, PACKAGE_URL
+    "  -L, --l10 <boolean>        logarithmic transform (default: false)\n\n"
+    "Other options:\n"
+    "  -h, --help                 print this help message and quit\n"
+    "  -V, --version              print version information and quit\n\n"
+    "Report bugs to: %s\n"
+    "%s home page: <%s>\n",
+    PACKAGE_NAME, PACKAGE_NAME, PACKAGE_BUGREPORT, PACKAGE_NAME, PACKAGE_URL
   );
 
   return;
