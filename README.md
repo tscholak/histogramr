@@ -2,6 +2,8 @@
 ### multivariate histograms of continuous data
 histogramr processes data from members (named columns) of HDF5 data sets of compound data type. It can use data from compound members spread over different data sets. histogramr produces a multivariate histogram, i.e. an approximate multivariate probability density function (PDF) discretized on a multidimensional rectangular regular grid of predefined shape. histogramr offers control over the histogram limits, the binning (grid spacing), and whether or not log-transformed data is used. histogramr creates an HDF5 output file with the PDF.
 
+Check out [this blog post](http://tscholak.github.io/code/big%20data/2015/03/07/histogramr.html) for more details.
+
 ## Current status
 The current branch continuous integration status:
 [![Build Status](https://travis-ci.org/tscholak/histogramr.png)](https://travis-ci.org/tscholak/histogramr)
