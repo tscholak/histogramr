@@ -600,7 +600,7 @@ print_usage (
   printf (
     "%s: create multivariate histograms of continuous data\n\n"
     "Usage: %s -d <dsname1> -m <mname1[:mname2...]>\n"
-    "  -b <size1[:size2...]>-l <range1[:range2...]>\n"
+    "  -b <size1[:size2...]> -l <range1[:range2...]>\n"
     "  [-L <boolean1[:boolean2...]>] [-d <dsname2> ...] [-e <number>]\n"
     "  -o <outfile> <infile1> [<infile2> ...]\n\n"
     "Mandatory options:\n"
