@@ -21,7 +21,7 @@ $ git clone git@github.com:tscholak/histogramr.git
 ### Building histogramr
 histogramr uses the autotools. Run:
 ```
-$ autogen.sh
+$ ./autogen.sh
 $ ./configure
 $ make
 ```
@@ -31,7 +31,7 @@ $ env CC=icc make
 ```
 You may also want to create a soft link to the executable:
 ```
-$ ln -sf ./src/histogramr ~/bin
+$ ln -sf "`pwd`/src/histogramr" ~/bin
 ```
 
 ## Usage
